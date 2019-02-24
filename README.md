@@ -13,3 +13,5 @@ Step 2: Mark the source (`src/main/java`) and test (`src/test/java`) folders in 
 
 Step 3: Create a package `hello` in `src/main/java`.
 
+Step 4: Creata the first Java class, `Application` within the `hello` package.
+
