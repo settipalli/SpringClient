@@ -9,4 +9,5 @@ Step 1: Created the below directories.
     src/main/resources/META-INF
     target/class
 
-    
+Step 2: Mark the source (`src/main/java`) and test (`src/test/java`) folders in your editor.
+
