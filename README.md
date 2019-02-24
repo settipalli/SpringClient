@@ -11,3 +11,5 @@ Step 1: Created the below directories.
 
 Step 2: Mark the source (`src/main/java`) and test (`src/test/java`) folders in your editor.
 
+Step 3: Create a package `hello` in `src/main/java`.
+
