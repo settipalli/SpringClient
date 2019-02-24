@@ -37,3 +37,7 @@ Step 10: Clean and build target and then package, run the application.
 
 Note: The Maven Shade Plugin is bound to the `package` phase and is used to package the artifact in an uber-jar,
       including its dependencies, and creates a shaded or renamed jar in the `target` directory.
+
+## Add Spring Boot
+
+Step 11: Add SpringBoot to the Application Class.
