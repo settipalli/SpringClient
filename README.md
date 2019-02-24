@@ -46,5 +46,10 @@ Step 12: Update `pom.xml` to pull SpringFramework dependencies.
 
 Step 13: Generate the (Maven Wrapper)[https://github.com/takari/maven-wrapper] using the comamnd:
 
-    mvn -N io.takari:maven:wrapper
+    $ mvn -N io.takari:maven:wrapper
+
+Step 14: Perform a clean install and run the application with Maven Wrapper.
+
+    $ mvn clean install
+    $ ./mvnw spring-boot:run
 
