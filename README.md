@@ -28,3 +28,12 @@ Step 8: Execute the jar, `java -jar ./target/SpringClient-0.9.0.jar`. It would p
 ## Add Maven
 
 Step 9: Add `pom.xml` and fill it.
+
+Step 10: Clean and build target and then package, run the application.
+
+    $ mvn clean
+    $ mvn package
+    $ java -jar ./target/SpringClient-0.9.0.jar
+
+Note: The Maven Shade Plugin is bound to the `package` phase and is used to package the artifact in an uber-jar,
+      including its dependencies, and creates a shaded or renamed jar in the `target` directory.
