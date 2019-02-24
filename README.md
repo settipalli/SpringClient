@@ -20,3 +20,5 @@ Step 5: Created `src/main/resources/META-INF/MANIFEST.MF`.
 Step 6: Compile code using `javac -cp ./src/main/java src/main/java/**/*.java -d ./target/classes`.
 
 Step 7: Build a jar using `jar cfm ./target/SpringClient-0.9.0.jar ./src/main/resources/META-INF/MANIFEST.MF -C ./target/classes .`.
+
+Step 8: Execute the jar, `java -jar ./target/SpringClient-0.9.0.jar`. It would print `Hello Spring` on the command line.
