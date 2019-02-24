@@ -1,5 +1,7 @@
 package hello;
 
 public class Application {
-    System.out.println("Hello Spring");
+    public static void main(String[] args) {
+        System.out.println("Hello Spring");
+    }
 }
