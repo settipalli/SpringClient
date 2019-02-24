@@ -53,3 +53,9 @@ Step 14: Perform a clean install and run the application with Maven Wrapper.
     $ mvn clean install
     $ ./mvnw spring-boot:run
 
+## A little extra
+
+Step 15: Updated `Application.java` to be a `CommandLineRunner`. 
+- Added `MessageService.java`.
+- Added `application.properites` where we define the `name` property that
+is later utilized by `MessageService`.
