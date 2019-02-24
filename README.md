@@ -41,3 +41,6 @@ Note: The Maven Shade Plugin is bound to the `package` phase and is used to pack
 ## Add Spring Boot
 
 Step 11: Add SpringBoot to the Application Class.
+
+Step 12: Update `pom.xml` to pull SpringFramework dependencies.
+ 
