@@ -43,4 +43,8 @@ Note: The Maven Shade Plugin is bound to the `package` phase and is used to pack
 Step 11: Add SpringBoot to the Application Class.
 
 Step 12: Update `pom.xml` to pull SpringFramework dependencies.
- 
+
+Step 13: Generate the (Maven Wrapper)[https://github.com/takari/maven-wrapper] using the comamnd:
+
+    mvn -N io.takari:maven:wrapper
+
